@@ -48,9 +48,11 @@
 						
 						<div class="input-group mb-3">
 						
-						<form action="cek_login.php" method="POST" ></form>
-
+						<form action="cek_login.php" method="POST" >
+						
+						<div class="input-group mb-4">
 						<span class="input-group-text"><i data-feather="user"></i></span>
+
 							<input type="text" class="form-control" placeholder="Username" name="username"  >
 						</div>
 						<div class="input-group mb-4">
@@ -65,6 +67,7 @@
 		</div>
 	</div>
 </div>
+</form>
 <!-- [ auth-signin ] end -->
 
 <!-- Required Js -->
